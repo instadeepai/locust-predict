@@ -4,3 +4,4 @@ xgboost
 dvc[gs]
 pandas
 matplotlib
+jupyterlab
