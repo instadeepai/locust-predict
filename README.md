@@ -16,6 +16,15 @@ pip install -r requirements.txt
 
 Make sure the Google Cloud SDK is [installed](https://cloud.google.com/sdk/docs/install) and you are authenticated.
 
+After downloading the sdk, authenticate: 
+
+```
+gcloud auth login
+gcloud auth application-default login
+```
+
+Download data.
+
 ```
 dvc pull
 ```
@@ -27,3 +36,4 @@ dvc add data/locust_dataset.csv
 git commit data/locust_dataset.csv.dvc -m "updating dataset"
 dvc push
 ```
+
