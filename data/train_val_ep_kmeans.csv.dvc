@@ -1,4 +1,0 @@
-outs:
-- md5: 95cd830f7470883d9a5458b402f7f1ae
-  size: 411772601
-  path: train_val_ep_kmeans.csv
