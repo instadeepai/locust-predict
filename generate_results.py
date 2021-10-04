@@ -3,8 +3,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 
-from data import load_data, preprocess_data
-from models import logistic_regression, random_forest, xgboost_regressor
+from locusts.data import load_data, preprocess_data
+from locusts.models import logistic_regression, random_forest, xgboost_regressor
 
 BUCKETIZE = True
 N_ITERS = 150

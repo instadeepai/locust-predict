@@ -10,6 +10,7 @@ Create a virtual environment and install requirements.
 
 ```
 pip install -r requirements.txt
+pip install -e .
 ```
 
 ## Download Data with DVC
