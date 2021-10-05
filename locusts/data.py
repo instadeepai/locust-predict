@@ -51,9 +51,9 @@ def preprocess_data(data, start_day=0, days=6, drop_true_absence=True, bucketize
     return pd.concat(dfs, axis=1), data["presence"]
 
 
-def load_data(dataset):
-    data_train = pd.read_csv(f"data/train_val_{dataset}.csv", index_col=0)
-    data_test = pd.read_csv(f"data/test_{dataset}.csv", index_col=0)
+def load_data(dataset, path="data"):
+    data_train = pd.read_csv(f"{path}/train_val_{dataset}.csv", index_col=0)
+    data_test = pd.read_csv(f"{path}/test_{dataset}.csv", index_col=0)
 
     missing_in_train = [n for n in data_test.columns if n not in data_train.columns]
     missing_in_test = [n for n in data_train.columns if n not in data_test.columns]
