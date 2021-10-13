@@ -14,7 +14,7 @@ def evaluate(trues, preds, probs):
     return results
 
 
-def logistic_regression(train_x, train_y, val_x, val_y, test_x, test_y, seed=None):
+def logistic_regression(train_x, train_y, val_x, val_y, test_x, test_y, seed=None, return_scaler=False):
     "Logistic regression model with data scaling."
     scaler = preprocessing.StandardScaler()
     train_x_scaled = scaler.fit_transform(train_x)
@@ -32,7 +32,11 @@ def logistic_regression(train_x, train_y, val_x, val_y, test_x, test_y, seed=Non
     y_probs = model.predict_proba(test_x_scaled)[:, 1]
     logistic_test_results = evaluate(test_y, y_preds, y_probs)
 
-    return model, logistic_val_results, logistic_test_results
+    out = model, logistic_val_results, logistic_test_results
+    if return_scaler:
+        out = out + (scaler,)
+
+    return out
 
 
 def xgboost_regressor(train_x, train_y, val_x, val_y, test_x, test_y, seed=None):
