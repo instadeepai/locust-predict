@@ -1,0 +1,5 @@
+outs:
+- md5: 7081229d3967a29478d8adbd77ad358e.dir
+  size: 611776375
+  nfiles: 5
+  path: presence_only

@@ -5,3 +5,5 @@
 /train_val_ep_random.csv
 /test_ep_kmeans.csv
 /train_val_ep_kmeans.csv
+/test_data
+/presence_only
