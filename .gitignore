@@ -133,3 +133,5 @@ dmypy.json
 *.grd
 
 *.vrt
+
+*.rds
