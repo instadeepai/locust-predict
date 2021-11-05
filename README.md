@@ -12,6 +12,21 @@ Create a virtual environment and install requirements.
 pip install -r requirements.txt
 ```
 
+## Docker
+
+Build the image running the following.
+
+```
+make build
+```
+
+Start a docker container
+
+```
+make run
+```
+
+To launch a notebook use `make run_notebook`.
 ## Download Data with DVC
 
 Make sure the Google Cloud SDK is [installed](https://cloud.google.com/sdk/docs/install) and you are authenticated.
