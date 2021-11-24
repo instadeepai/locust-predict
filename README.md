@@ -67,6 +67,15 @@ dvc pull
 If you find this project useful in your research please consider adding the following citation:
 
 ```bibtex
-@inproceedings{...
+@proceedings{yusef2021locust,
+    title     = {On pseudo-absence generation and machine learning for locust breeding ground prediction in Africa},
+    author    = {Ibrahim Salihu Yusuf and
+                 Kale-ab Tessera and
+                 Thomas Tumiel and
+                 Sella Nevo and
+                 Arnu Pretorius},
+    journal   = {Advances in Neural Information Processing Systems (NeurIPS) workshop, 2021, Sydney},
+    year      = {2021},
+    url       = {https://arxiv.org/pdf/2111.03904.pdf},
 }
 ```
