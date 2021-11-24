@@ -1,4 +1,4 @@
-![pseudo-absence image header](https://github.com/instadeepai/locust-predict/tree/main/images/readme-header.png)
+![pseudo-absence image header](https://github.com/instadeepai/locust-predict/blob/main/images/readme-header.png)
 
 # Pseudo Absence Generation and Locust Prediction
 
