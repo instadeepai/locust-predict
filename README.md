@@ -4,7 +4,7 @@
 
 [![Arxiv](https://img.shields.io/badge/ArXiv-2111.03904-orange.svg)](https://arxiv.org/pdf/2111.03904.pdf) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/instadeepai/locust-predict/blob/main/notebooks/Colab-Tutorial.ipynb)
 
-Predicting locust spawning locations from satellite data.
+Predicting locust breeding ground locations from satellite data.
 
 
 **[Research Paper](https://arxiv.org/abs/2111.03904)**
@@ -17,7 +17,7 @@ Create a virtual environment and install requirements.
 pip install -r requirements.txt
 ```
 
-## Notebooks
+## Notebooks and scripts
 
 Run the notebooks in the browser using Google Colab.
 
@@ -26,6 +26,7 @@ Tutorial | Link
 Colab Intro | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/instadeepai/locust-predict/blob/main/notebooks/Colab-Tutorial.ipynb)
 Model Training | [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Locust-Prediction-Modelling.ipynb)
 Model Interpretation | [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Interpretation.ipynb)
+Hypothesis Testing | [View](https://github.com/instadeepai/locust-predict/blob/main/hypothesis_testing.R)
 
 ## Docker
 
