@@ -15,18 +15,18 @@ pip install -r requirements.txt
 ## Docker
 
 Build the image running the following.
-
 ```
 make build
 ```
 
-Start a docker container
-
+Start a docker container in bash
 ```
-make run
+make bash
 ```
 
 To launch a notebook use `make run_notebook`.
+
+**For the R Docker Container** add `version=r` to the build and run commands.
 ## Download Data with DVC
 
 Make sure the Google Cloud SDK is [installed](https://cloud.google.com/sdk/docs/install) and you are authenticated.
