@@ -1,1 +1,1 @@
-install.packages(c("maxnet","tictoc","MLmetrics","dplyr"),repos = "http://cran.us.r-project.org")
+install.packages(c("maxnet","tictoc","MLmetrics","dplyr","sp","ncdf4","rgdal","comprehenr","glue"),repos = "http://cran.us.r-project.org")

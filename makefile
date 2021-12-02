@@ -1,5 +1,4 @@
 RUN_FLAGS=-it --rm -p 8888:8888 -v ${PWD}:/home/app/locust -w /home/app/locust
-# DOCKER_RUN=docker run $(RUN_FLAGS) $(IMAGE)
 # Default version is python
 version = python
 DOCKER_IMAGE_TAG = $(version)
