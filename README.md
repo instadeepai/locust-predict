@@ -50,7 +50,7 @@ To launch a notebook use `make run_notebook`.
 ## Download Preprocessed Data
 Download and extract the preprocessed data into `data/` directory from [here](https://drive.google.com/file/d/1rZjRooS8AzUjuuNHf5_7YX_pd1U4iuDt/view?usp=sharing)
 
-## Preprocesse Data
+## Preprocess Data
 To run the preprocessing workflow, the following datasets are required:
 - [FAO Locust Observation Data](https://locust-hub-hqfao.hub.arcgis.com/datasets/hqfao::hoppers-1/about)
 - [NASA GLDAS_NOAH025_3H Dataset](https://disc.gsfc.nasa.gov/datasets/GLDAS_NOAH025_3H_2.1/summary)
