@@ -19,14 +19,17 @@ pip install -r requirements.txt
 
 ## Notebooks and scripts
 
-Run the notebooks in the browser using Google Colab.
+Run the notebooks with Google Colab or appropriate Docker container. 
 
-Tutorial | Link
+Notebooks | Link
 ---      | ---
-Colab Intro | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/instadeepai/locust-predict/blob/main/notebooks/Colab-Tutorial.ipynb)
-Model Training | [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Locust-Prediction-Modelling.ipynb)
-Model Interpretation | [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Interpretation.ipynb)
-Hypothesis Testing | [View](https://github.com/instadeepai/locust-predict/blob/main/hypothesis_testing.R)
+Colab Intro (Python)| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/instadeepai/locust-predict/blob/main/notebooks/Colab-Tutorial.ipynb)
+Pseudo-Absence Generation (R)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Pseudo%20Absence%20Generation.ipynb)
+Pseudo-Absence Generation Viz (R)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Pseudo%20Absence%20Generation%20Viz.ipynb)
+Add Environmental and Climate Data (Python)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Append%20History%20Data.ipynb)
+Model Training (Python)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Locust-Prediction-Modelling.ipynb)
+Model Interpretation (Python)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Interpretation.ipynb)
+Hypothesis Testing (Python)| [View](https://github.com/instadeepai/locust-predict/blob/main/hypothesis_testing.R)
 
 ## Docker
 
@@ -43,7 +46,21 @@ make bash
 To launch a notebook use `make run_notebook`.
 
 **For the R Docker Container** add `version=r` to the build and run commands.
-## Download Data with DVC
+
+## Download Preprocessed Data
+Download and extract the preprocessed data into `data/` directory from [here](https://drive.google.com/file/d/1rZjRooS8AzUjuuNHf5_7YX_pd1U4iuDt/view?usp=sharing)
+
+## Preprocesse Data
+To run the preprocessing workflow, the following datasets are required:
+- [FAO Locust Observation Data](https://locust-hub-hqfao.hub.arcgis.com/datasets/hqfao::hoppers-1/about)
+- [NASA GLDAS_NOAH025_3H Dataset](https://disc.gsfc.nasa.gov/datasets/GLDAS_NOAH025_3H_2.1/summary)
+- [ISRIC SoilGrids](https://soilgrids.org/) (Refer to this [notebook](https://github.com/instadeepai/locust-predict/blob/main/notebooks/notebooks/Download%20ISRIC%20SoilGrids%20Data.ipynb) on how to download SoilGrids data)
+
+Run the following notebooks, to generate preprocessed data
+1. [Pseudo-Absence Generation](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Pseudo%20Absence%20Generation.ipynb). You can run [Pseudo-Absence Generation Viz](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Pseudo%20Absence%20Generation%20Viz.ipynb) for visualization.
+2. [Add Environmental and Climate Data](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Append%20History%20Data.ipynb)
+
+<!-- ## Download Data with DVC
 
 Make sure the Google Cloud SDK is [installed](https://cloud.google.com/sdk/docs/install) and you are authenticated.
 
@@ -58,7 +75,7 @@ Download data:
 
 ```
 dvc pull
-```
+``` -->
 
 ## Citing
 

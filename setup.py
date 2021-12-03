@@ -4,6 +4,6 @@ import setuptools
 setuptools.setup(
     name="locusts",
     version="1.0",
-    author="InstDeep",
+    author="InstaDeep",
     packages=setuptools.find_packages(),
 )
