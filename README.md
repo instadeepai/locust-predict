@@ -26,6 +26,8 @@ Notebooks | Link
 Colab Intro (Python)| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/instadeepai/locust-predict/blob/main/notebooks/Colab-Tutorial.ipynb)
 Pseudo-Absence Generation (R)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Pseudo%20Absence%20Generation.ipynb)
 Pseudo-Absence Generation Viz (R)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Pseudo%20Absence%20Generation%20Viz.ipynb)
+Presence-Only (MaxEnt) Data Generation (R)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Presence_Only_Generate_Background_Data_And_Plot.ipynb)
+Presence-Only (MaxEnt) Modelling (R)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Presence_Only_Modelling.ipynb)
 Add Environmental and Climate Data (Python)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Append%20History%20Data.ipynb)
 Model Training (Python)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Locust-Prediction-Modelling.ipynb)
 Model Interpretation (Python)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Interpretation.ipynb)
