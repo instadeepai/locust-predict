@@ -56,7 +56,7 @@ To run the preprocessing workflow, the following datasets are required:
 - [NASA GLDAS_NOAH025_3H Dataset](https://disc.gsfc.nasa.gov/datasets/GLDAS_NOAH025_3H_2.1/summary)
 - [ISRIC SoilGrids](https://soilgrids.org/) (Refer to this [notebook](https://github.com/instadeepai/locust-predict/blob/main/notebooks/notebooks/Download%20ISRIC%20SoilGrids%20Data.ipynb) on how to download SoilGrids data)
 
-Run the following notebooks, to generate preprocessed data
+Run the following notebooks sequentially, to generate preprocessed data
 1. [Pseudo-Absence Generation](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Pseudo%20Absence%20Generation.ipynb). You can run [Pseudo-Absence Generation Viz](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Pseudo%20Absence%20Generation%20Viz.ipynb) for visualization.
 2. [Add Environmental and Climate Data](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Append%20History%20Data.ipynb)
 
