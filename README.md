@@ -29,7 +29,7 @@ Pseudo-Absence Generation Viz (R)| [View](https://github.com/instadeepai/locust-
 Add Environmental and Climate Data (Python)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Append%20History%20Data.ipynb)
 Model Training (Python)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Locust-Prediction-Modelling.ipynb)
 Model Interpretation (Python)| [View](https://github.com/instadeepai/locust-predict/blob/main/notebooks/Interpretation.ipynb)
-Hypothesis Testing (Python)| [View](https://github.com/instadeepai/locust-predict/blob/main/hypothesis_testing.R)
+Hypothesis Testing (R)| [View](https://github.com/instadeepai/locust-predict/blob/main/hypothesis_testing.R)
 
 ## Docker
 
