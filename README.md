@@ -50,7 +50,7 @@ To launch a notebook use `make run_notebook`.
 ## Download Preprocessed Data
 Download and extract the preprocessed data into `data/` directory from [here](https://drive.google.com/file/d/1rZjRooS8AzUjuuNHf5_7YX_pd1U4iuDt/view?usp=sharing)
 
-## Preprocess Data
+## Preprocesse Data
 To run the preprocessing workflow, the following datasets are required:
 - [FAO Locust Observation Data](https://locust-hub-hqfao.hub.arcgis.com/datasets/hqfao::hoppers-1/about)
 - [NASA GLDAS_NOAH025_3H Dataset](https://disc.gsfc.nasa.gov/datasets/GLDAS_NOAH025_3H_2.1/summary)
@@ -95,3 +95,7 @@ If you find this project useful in your research please consider adding the foll
     url       = {https://arxiv.org/pdf/2111.03904.pdf},
 }
 ```
+
+NeurIPS 2021 Workshops: 
+* [Artificial Intelligence for Humanitarian Assistance and Disaster Response (AI+HADR)](https://www.hadr.ai/home)
+* [Machine Learning for the Developing World (ML4D)](https://ml4d.notion.site/ml4d/Machine-Learning-for-the-Developing-World-ML4D-2021-548251eab3df4517819c4742c2e5c853)
